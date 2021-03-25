@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Movie Tickets</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/sowmmo_style.css">
+    <script src="https://kit.fontawesome.com/525f9347e5.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="assets/fav.png">
+    <script src="assets/bootstrap.min.js"></script>
+    <script src="sowmmo.js"></script>
+    <script type="text/javascript" src="assets/webview_bridge.js"></script>
+    
+    <meta name="theme-color" content="#5F1A89">
+    <meta property="og:title" content="Star Cineplex">
+    <meta property="og:description" content="Buy Movie Tickets">
+    <meta property="og:image" content="assets/thumb.png">
+</head>
+    
+<body style="background-color: #white;" >
+
+<div class="container">
+<div class="jumbotron" style="background-color: white;">
+<div class="row">
+    <div class="col-sm-12" style="padding-top: 15%;">
+        <h4 style="font-weight: 100;float: left">Your Payment is <span class="cine_color"><b>successful</b></span></h4>
+        <img src="assets/success.svg" style="float: right">
+    </div>
+    
+    <div class="col-sm-12" style="padding-top: 15%;">
+        <img src="assets/cinplex_logo.svg" width=120px; style="float: left;margin-right: 5%;"> 
+        <h4 style="line-height: 22px">Star Cineplex<br><span style="font-size: 15px;">01678456123</span></h4>
+    </div>
+    
+    <hr style="padding-top: 1%">
+    
+    <table class="table table-bordered">
+     
+    <tbody>
+      <tr>
+          <td style="color: #777777">Time<br><span style="color: #464646;font-size: 15px;">3.15pm 03/03/19</span></td>
+        <td></td>
+       </tr>
+      <tr>
+        <td style="color: #777777">Amount<br><span style="color: #464646;font-size: 15px;">৳ 500</span></td>
+        <td style="color: #777777">New Balance<br><span style="color: #464646;font-size: 15px;">৳ 500</span></td>
+       </tr>
+  
+    </tbody>
+  </table>
+   <hr style="padding-top:-2%">
+</div>
+</div>
+</div>
+    
+<!-- Confirm Button-->        
+    <button type="button" class="btn btn_act" onclick="window.webViewJSBridge.goBackHome('Tickets')"  >Back to bKash App Home <img src="assets/arrow.svg" style="float: right;margin-top: 1%"> </button> 
+ 
+</body>
+</html>
